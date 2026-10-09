@@ -1,0 +1,12 @@
+[
+  {
+    "ServerId": 1,
+    "ServerName": "本地单机服(Offline)",
+    "ip": "127.0.0.1",
+    "port": 8000,
+    "state": 1,
+    "isNew": 0,
+    "isHot": 0,
+    "recommend": 1
+  }
+]

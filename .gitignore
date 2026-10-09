@@ -2,3 +2,13 @@ Assets/*
 Painting/
 __pycache__/
 *.py[cod]
+references/*
+*.apk
+tools/*
+DaiblosCoreServer/apktool_out/
+il2cpp_dump/
+jadx_dex/
+jadx_out/
+.trae/*
+hs_err_pid20012.log
+DaiblosCoreServer/mock_server/requests.log
