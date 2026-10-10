@@ -1,19 +1,50 @@
+# ============ APK 安装包与签名产物 ============
+*.apk
+*.apks
+*.aab
+*.xapk
+*.idsig
+*.orig
+*.keystore
+*.jks
+
+# ============ 逆向工具解包/反编译输出 ============
+apktool_out/
+il2cpp_dump/
+jadx_out/
+jadx_dex/
+jadx_*/
+smali_classes*/
+DaiblosCoreServer/lebian_runtime/
+
+# ============ 游戏资源提取产物 ============
 Assets/*
-Painting/
+references/*
+
+# ============ 工具链（大体积二进制） ============
+tools/*
+frida-server*
+fs16*
+*.xz
+
+# ============ 调试与分析临时输出 ============
+*.log
+logcat_*.txt
+full_logcat.txt
+frida_*_log.txt
+scr_*.png
+DaiblosCoreServer/mock_server/tcp_log/
+
+# ============ Python ============
 __pycache__/
 *.py[cod]
-references/*
-*.apk
-tools/*
-DaiblosCoreServer/apktool_out/
-il2cpp_dump/
-jadx_dex/
-jadx_out/
+*.egg-info/
+.venv/
+
+# ============ IDE / 系统垃圾 ============
 .trae/*
-hs_err_pid20012.log
-DaiblosCoreServer/mock_server/requests.log
-DaiblosCoreServer/frida-server
-DaiblosCoreServer/frida-server.xz
-DaiblosCoreServer/fs16
-DaiblosCoreServer/fs16.xz
-*.idsig
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
