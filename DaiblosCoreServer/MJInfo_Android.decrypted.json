@@ -1,0 +1,47 @@
+{
+    "gid": 1001,
+    "cid": 1,
+    "cid2": 301,
+    "pkg": "com.gamebeans.gp.jczx",
+    "sdkKey": "C76C2D61DBD43087",
+    "testSdkKey": "HLvDmnv4Qqu0PX5w",
+    "url_account_relase": "https://mg-account.game-beans.net/",
+    "url_account_edition": "https://ed-account.magegameov.com/",
+    "url_account_pre": "https://pre-account.magegameov.com/",
+    "url_account_test": "https://test-account.magegameov.com/",
+
+    "url_account_relase_bp": "https://mgbp-account.game-beans.net/",
+    "url_account_edition_bp": "https://ed-account.magegamesov.com/",
+    "url_account_pre_bp": "https://pre-account.magegamesov.com/",
+    "url_account_test_bp": "https://test-account.magegamesov.com/",
+    
+    "url_ext_relase": "https://mgbp-ext.game-beans.net/",
+    "url_ext_edition": "https://ed-ext.magegamesov.com/",
+    "url_ext_pre": "https://pre-ext.magegamesov.com/",
+    "url_ext_test": "https://test-ext.magegamesov.com/",
+
+    "url_ext_relase_bp": "https://mg-ext.game-beans.net/",
+    "url_ext_edition_bp": "https://ed-ext.magegameov.com/",
+    "url_ext_pre_bp": "https://pre-ext.magegameov.com/",
+    "url_ext_test_bp": "https://test-ext.magegameov.com/",
+
+    "url_event_relase": "https://mgbp-event.game-beans.net/",
+    "url_event_edition": "https://ed-event.magegamesov.com/",
+    "url_event_pre": "https://pre-event.magegamesov.com/",
+    "url_event_test": "https://test-event.magegamesov.com/",
+
+    "url_event_relase_bp": "https://mg-event.game-beans.net/",
+    "url_event_edition_bp": "https://ed-event.magegameov.com/",
+    "url_event_pre_bp": "https://pre-event.magegameov.com/",
+    "url_event_test_bp": "https://test-event.magegameov.com/",
+	
+    "url_pay_relase": "https://mg-pay.game-beans.net/",
+    "url_pay_edition": "https://ed-pay.magegameov.com/",
+    "url_pay_pre": "https://pre-pay.magegameov.com/",
+    "url_pay_test": "https://test-pay.magegameov.com/",
+
+    "url_pay_relase_bp": "https://mgbp-pay.game-beans.net/",
+    "url_pay_edition_bp": "https://ed-pay.magegamesov.com/",
+    "url_pay_pre_bp": "https://pre-pay.magegamesov.com/",
+    "url_pay_test_bp": "https://test-pay.magegamesov.com/"
+}

@@ -12,3 +12,8 @@ jadx_out/
 .trae/*
 hs_err_pid20012.log
 DaiblosCoreServer/mock_server/requests.log
+DaiblosCoreServer/frida-server
+DaiblosCoreServer/frida-server.xz
+DaiblosCoreServer/fs16
+DaiblosCoreServer/fs16.xz
+*.idsig

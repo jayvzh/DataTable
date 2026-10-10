@@ -1,0 +1,80 @@
+197C35C: stp x30, x25, [sp, #-0x40]!
+197C360: stp x24, x23, [sp, #0x10]
+197C364: stp x22, x21, [sp, #0x20]
+197C368: stp x20, x19, [sp, #0x30]
+197C36C: ldr x8, [x6, #0x38]
+197C370: mov x25, x6
+197C374: mov w23, w5
+197C378: mov w22, w4
+197C37C: mov w21, w3
+197C380: mov x19, x2
+197C384: mov x20, x1
+197C388: mov x24, x0
+197C38C: cbnz x8, #0x197c39c
+197C390: mov x0, x25
+197C394: bl #0x13b98c0
+197C398: ldr x8, [x25, #0x38]
+197C39C: ldr x0, [x8]
+197C3A0: ldrb w8, [x0, #0x135]
+197C3A4: tbnz w8, #0, #0x197c3ac
+197C3A8: bl #0x13b9864
+197C3AC: bl #0x13d9b4c
+197C3B0: ldr x8, [x25, #0x38]
+197C3B4: mov w1, wzr
+197C3B8: mov x25, x0
+197C3BC: ldr x2, [x8, #8]
+197C3C0: bl #0x1af1a74
+197C3C4: cbz x25, #0x197c400
+197C3C8: and w8, w23, #1
+197C3CC: and w9, w22, #1
+197C3D0: and w10, w21, #1
+197C3D4: stp x24, x20, [x25, #0x20]
+197C3D8: str x19, [x25, #0x30]
+197C3DC: ldp x20, x19, [sp, #0x30]
+197C3E0: ldp x22, x21, [sp, #0x20]
+197C3E4: ldp x24, x23, [sp, #0x10]
+197C3E8: strb w10, [x25, #0x38]
+197C3EC: strb w9, [x25, #0x39]
+197C3F0: strb w8, [x25, #0x3a]
+197C3F4: mov x0, x25
+197C3F8: ldp x30, x25, [sp], #0x40
+197C3FC: ret 
+197C400: bl #0x13d9b50
+197C404: stp x30, x23, [sp, #-0x30]!
+197C408: stp x22, x21, [sp, #0x10]
+197C40C: stp x20, x19, [sp, #0x20]
+197C410: ldr x8, [x1, #0x38]
+197C414: mov x19, x1
+197C418: mov x20, x0
+197C41C: cbnz x8, #0x197c458
+197C420: adrp x0, #0x2fd7000
+197C424: ldr x0, [x0, #0xf0]
+197C428: bl #0x13d9908
+197C42C: adrp x0, #0x2fc9000
+197C430: ldr x0, [x0, #0xce0]
+197C434: bl #0x13d9908
+197C438: adrp x0, #0x2fd7000
+197C43C: ldr x0, [x0, #0xf8]
+197C440: bl #0x13d9908
+197C444: ldr x8, [x19, #0x38]
+197C448: cbnz x8, #0x197c458
+197C44C: mov x0, x19
+197C450: bl #0x13b98c0
+197C454: ldr x8, [x19, #0x38]
+197C458: ldr x0, [x8]
+197C45C: ldrb w8, [x0, #0x135]
+197C460: tbnz w8, #0, #0x197c468
+197C464: bl #0x13b9864
+197C468: bl #0x13d9b4c
+197C46C: ldr x8, [x19, #0x38]
+197C470: mov x21, x0
+197C474: ldr x1, [x8, #8]
+197C478: bl #0x1adfd64
+197C47C: adrp x8, #0x2fd7000
+197C480: ldr x8, [x8, #0xf8]
+197C484: ldr x0, [x8]
+197C488: bl #0x13d9b4c
+197C48C: mov x1, xzr
+197C490: mov x22, x0
+197C494: bl #0x2613124
+197C498: cbz x22, #0x197c55c

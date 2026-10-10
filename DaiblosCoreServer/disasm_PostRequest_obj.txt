@@ -1,0 +1,80 @@
+197C28C: stp x30, x25, [sp, #-0x40]!
+197C290: stp x24, x23, [sp, #0x10]
+197C294: stp x22, x21, [sp, #0x20]
+197C298: stp x20, x19, [sp, #0x30]
+197C29C: ldr x8, [x5, #0x38]
+197C2A0: mov x22, x5
+197C2A4: mov w20, w4
+197C2A8: mov w21, w3
+197C2AC: mov x19, x2
+197C2B0: mov x24, x1
+197C2B4: mov x23, x0
+197C2B8: cbnz x8, #0x197c2d8
+197C2BC: adrp x0, #0x2fd7000
+197C2C0: ldr x0, [x0, #0xe8]
+197C2C4: bl #0x13d9908
+197C2C8: ldr x8, [x22, #0x38]
+197C2CC: cbnz x8, #0x197c2d8
+197C2D0: mov x0, x22
+197C2D4: bl #0x13b98c0
+197C2D8: mov x0, x24
+197C2DC: mov x1, xzr
+197C2E0: bl #0x23bdf34
+197C2E4: mov x25, x0
+197C2E8: mov x0, xzr
+197C2EC: bl #0x23c1b7c
+197C2F0: adrp x8, #0x2fd7000
+197C2F4: ldr x8, [x8, #0xe8]
+197C2F8: mov x24, x0
+197C2FC: ldr x8, [x8]
+197C300: ldr w9, [x8, #0xe0]
+197C304: cbnz w9, #0x197c310
+197C308: mov x0, x8
+197C30C: bl #0x13d9a38
+197C310: ldr x8, [x22, #0x38]
+197C314: and w3, w21, #1
+197C318: and w4, w20, #1
+197C31C: mov x0, x23
+197C320: ldr x6, [x8, #8]
+197C324: mov x1, x25
+197C328: mov x2, x19
+197C32C: mov w5, wzr
+197C330: bl #0x197c35c
+197C334: cbz x24, #0x197c358
+197C338: mov x1, x0
+197C33C: mov x0, x24
+197C340: ldp x20, x19, [sp, #0x30]
+197C344: ldp x22, x21, [sp, #0x20]
+197C348: ldp x24, x23, [sp, #0x10]
+197C34C: mov x2, xzr
+197C350: ldp x30, x25, [sp], #0x40
+197C354: b #0x2bf4638
+197C358: bl #0x13d9b50
+197C35C: stp x30, x25, [sp, #-0x40]!
+197C360: stp x24, x23, [sp, #0x10]
+197C364: stp x22, x21, [sp, #0x20]
+197C368: stp x20, x19, [sp, #0x30]
+197C36C: ldr x8, [x6, #0x38]
+197C370: mov x25, x6
+197C374: mov w23, w5
+197C378: mov w22, w4
+197C37C: mov w21, w3
+197C380: mov x19, x2
+197C384: mov x20, x1
+197C388: mov x24, x0
+197C38C: cbnz x8, #0x197c39c
+197C390: mov x0, x25
+197C394: bl #0x13b98c0
+197C398: ldr x8, [x25, #0x38]
+197C39C: ldr x0, [x8]
+197C3A0: ldrb w8, [x0, #0x135]
+197C3A4: tbnz w8, #0, #0x197c3ac
+197C3A8: bl #0x13b9864
+197C3AC: bl #0x13d9b4c
+197C3B0: ldr x8, [x25, #0x38]
+197C3B4: mov w1, wzr
+197C3B8: mov x25, x0
+197C3BC: ldr x2, [x8, #8]
+197C3C0: bl #0x1af1a74
+197C3C4: cbz x25, #0x197c400
+197C3C8: and w8, w23, #1
