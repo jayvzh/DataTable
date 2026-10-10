@@ -20,6 +20,7 @@ DaiblosCoreServer/lebian_runtime/
 # ============ 游戏资源提取产物 ============
 Assets/*
 references/*
+phase1/
 
 # ============ 工具链（大体积二进制） ============
 tools/*
